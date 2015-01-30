@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A4A15811A7BE856003830C1 /* CreateStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A15801A7BE856003830C1 /* CreateStatusViewController.swift */; };
+		8A4A15831A7BE871003830C1 /* CreatePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A15821A7BE871003830C1 /* CreatePhotoViewController.swift */; };
+		8A4A15851A7BE887003830C1 /* CreateCheckInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A15841A7BE887003830C1 /* CreateCheckInViewController.swift */; };
 		8A81E4711A7B032E00B59CB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A81E4701A7B032E00B59CB9 /* AppDelegate.swift */; };
 		8A81E4731A7B032E00B59CB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A81E4721A7B032E00B59CB9 /* ViewController.swift */; };
 		8A81E4761A7B032E00B59CB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A81E4741A7B032E00B59CB9 /* Main.storyboard */; };
 		8A81E4781A7B032E00B59CB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A81E4771A7B032E00B59CB9 /* Images.xcassets */; };
 		8A81E47B1A7B032E00B59CB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A81E4791A7B032E00B59CB9 /* LaunchScreen.xib */; };
 		8A81E4871A7B032E00B59CB9 /* Facebook_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A81E4861A7B032E00B59CB9 /* Facebook_DemoTests.swift */; };
+		8A81E4931A7B0C0B00B59CB9 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A81E4921A7B0C0B00B59CB9 /* NewsFeedViewController.swift */; };
+		8A81E4951A7B0E6700B59CB9 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A81E4941A7B0E6700B59CB9 /* RequestsViewController.swift */; };
+		8A81E4971A7B107B00B59CB9 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A81E4961A7B107B00B59CB9 /* MessagesViewController.swift */; };
+		8A81E4991A7B115A00B59CB9 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A81E4981A7B115A00B59CB9 /* NotificationsViewController.swift */; };
+		8A81E49B1A7B126000B59CB9 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A81E49A1A7B126000B59CB9 /* MoreViewController.swift */; };
+		8A81E49D1A7B13B500B59CB9 /* ThrillistDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A81E49C1A7B13B500B59CB9 /* ThrillistDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A4A15801A7BE856003830C1 /* CreateStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateStatusViewController.swift; sourceTree = "<group>"; };
+		8A4A15821A7BE871003830C1 /* CreatePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePhotoViewController.swift; sourceTree = "<group>"; };
+		8A4A15841A7BE887003830C1 /* CreateCheckInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCheckInViewController.swift; sourceTree = "<group>"; };
 		8A81E46B1A7B032E00B59CB9 /* Facebook Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A81E46F1A7B032E00B59CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A81E4701A7B032E00B59CB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +48,12 @@
 		8A81E4801A7B032E00B59CB9 /* Facebook DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Facebook DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A81E4851A7B032E00B59CB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A81E4861A7B032E00B59CB9 /* Facebook_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facebook_DemoTests.swift; sourceTree = "<group>"; };
+		8A81E4921A7B0C0B00B59CB9 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		8A81E4941A7B0E6700B59CB9 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		8A81E4961A7B107B00B59CB9 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		8A81E4981A7B115A00B59CB9 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		8A81E49A1A7B126000B59CB9 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		8A81E49C1A7B13B500B59CB9 /* ThrillistDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThrillistDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +98,18 @@
 				8A81E4701A7B032E00B59CB9 /* AppDelegate.swift */,
 				8A81E4721A7B032E00B59CB9 /* ViewController.swift */,
 				8A81E4741A7B032E00B59CB9 /* Main.storyboard */,
+				8A4A15841A7BE887003830C1 /* CreateCheckInViewController.swift */,
+				8A4A15821A7BE871003830C1 /* CreatePhotoViewController.swift */,
+				8A81E49A1A7B126000B59CB9 /* MoreViewController.swift */,
+				8A81E4981A7B115A00B59CB9 /* NotificationsViewController.swift */,
+				8A81E4961A7B107B00B59CB9 /* MessagesViewController.swift */,
+				8A81E4941A7B0E6700B59CB9 /* RequestsViewController.swift */,
+				8A81E4921A7B0C0B00B59CB9 /* NewsFeedViewController.swift */,
 				8A81E4771A7B032E00B59CB9 /* Images.xcassets */,
 				8A81E4791A7B032E00B59CB9 /* LaunchScreen.xib */,
 				8A81E46E1A7B032E00B59CB9 /* Supporting Files */,
+				8A81E49C1A7B13B500B59CB9 /* ThrillistDetailViewController.swift */,
+				8A4A15801A7BE856003830C1 /* CreateStatusViewController.swift */,
 			);
 			path = "Facebook Demo";
 			sourceTree = "<group>";
@@ -212,8 +239,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A81E49B1A7B126000B59CB9 /* MoreViewController.swift in Sources */,
+				8A81E4971A7B107B00B59CB9 /* MessagesViewController.swift in Sources */,
+				8A4A15851A7BE887003830C1 /* CreateCheckInViewController.swift in Sources */,
 				8A81E4731A7B032E00B59CB9 /* ViewController.swift in Sources */,
 				8A81E4711A7B032E00B59CB9 /* AppDelegate.swift in Sources */,
+				8A81E4991A7B115A00B59CB9 /* NotificationsViewController.swift in Sources */,
+				8A4A15811A7BE856003830C1 /* CreateStatusViewController.swift in Sources */,
+				8A81E4951A7B0E6700B59CB9 /* RequestsViewController.swift in Sources */,
+				8A4A15831A7BE871003830C1 /* CreatePhotoViewController.swift in Sources */,
+				8A81E4931A7B0C0B00B59CB9 /* NewsFeedViewController.swift in Sources */,
+				8A81E49D1A7B13B500B59CB9 /* ThrillistDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = "Facebook Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				INFOPLIST_FILE = "Facebook Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +443,7 @@
 				8A81E48C1A7B032E00B59CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A81E48D1A7B032E00B59CB9 /* Build configuration list for PBXNativeTarget "Facebook DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +452,7 @@
 				8A81E48F1A7B032E00B59CB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
